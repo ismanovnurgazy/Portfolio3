@@ -76,3 +76,24 @@ header-logo img {
 .header-menu-link:hover {
   background-color: var(--accent-light);
 }
+.intro {
+  padding: 60px 0;
+}
+.intro-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+.intro-left {
+  width: 30%;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.intro-right {
+  width: 60%;
+}
+.intro-right h1 .intro-right h4 {
+  margin: 0 0 15px;
+}
