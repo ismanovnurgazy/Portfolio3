@@ -26,7 +26,10 @@ body {
   margin: 0 auto;
   padding: 0px 15px;
 }
-
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
+}
 .header {
   background-color: var(--accent);
 }
@@ -96,4 +99,13 @@ header-logo img {
 }
 .intro-right h1 .intro-right h4 {
   margin: 0 0 15px;
+}
+.contacts ul {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
 }
